@@ -1,0 +1,33 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 80,
+    "spacing": 4,
+    "modules-left": [],
+    "modules-center": ["custom/map", "custom/calendar", "custom/message"],
+    "modules-right": ["custom/placeholder", "custom/power"],
+    "custom/map": {
+        "format": "MAP",
+        "tooltip": false
+    },
+    "custom/calendar": {
+        "format": " ",
+	"on-click": "flatpak run io.github.ungoogled_software.ungoogled_chromium --no-sandbox https://onlinenotepad.org/notepad",
+        "tooltip": false
+    },
+    "custom/message": {
+        "format": " ",
+	"on-click": "armcord",
+        "tooltip": false
+    },
+    "custom/power": {
+        "format": " ",
+        "on-click": "poweroff",
+        "tooltip": false
+    },
+    "custom/map": {
+        "format": " ",
+        "on-click": "flatpak run io.github.ungoogled_software.ungoogled_chromium --no-sandbox",
+        "tooltip": false
+    }, 
+}

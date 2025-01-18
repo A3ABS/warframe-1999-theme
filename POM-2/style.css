@@ -1,0 +1,56 @@
+#waybar {
+    background-color: #52654D;
+    color: #FFFFFF;
+    border: 2px solid #304030;
+    border-radius: 8px;
+    padding: 50px 10px;
+    margin: 5px;
+    font-family: monospace;
+}
+
+#custom-power {
+    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarPowerLg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin-right: 20px;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+#custom-map, #custom-calendar, #custom-message {
+    background-color: #304030;
+    border-radius: 4px;
+    padding: 0 10px;
+    margin: 0 2px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+/* Optional: Add specific styling for each button */
+#custom-calendar {
+    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarCalendarLg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+#custom-map {
+    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarMapLg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
+#custom-message {
+    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarChatLg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
