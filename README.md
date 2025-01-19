@@ -24,7 +24,7 @@ Make sure you have the following installed:
 
 4. **The Repository**: Download or clone this repository to get the necessary theme files:
    ```bash
-   git clone https://github.com/your-username/warframe-1999-theme.git
+   git clone https://github.com/A3ABS/warframe-1999-theme.git
    ```
 
 5. **Optional - `ml4w` Dotfiles**: For easier setup, you can install the `ml4w` dotfiles, which provide pre-configured settings for Hyprland and Waybar. This step is optional but recommended for a quicker configuration.
