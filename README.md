@@ -34,6 +34,7 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 Clone the repository to your local machine:
+
 ```bash
 git clone https://github.com/your-username/warframe-1999-theme.git
 cd warframe-1999-theme
@@ -57,6 +58,7 @@ To make the setup easier, you can install the `ml4w` dotfiles, which provide pre
 - Custom **Hyprland configuration**.
 
 Install them with the following commands:
+
 ```bash
 git clone https://github.com/your-username/ml4w-dotfiles.git
 cd ml4w-dotfiles
@@ -68,6 +70,7 @@ Once the `ml4w` dotfiles are installed, you can use the `ml4w config change tool
 ### 4. Copy the Files
 
 Copy all the necessary files to your Waybar configuration directory:
+
 ```bash
 cp -r * ~/.config/waybar/
 ```
@@ -109,16 +112,6 @@ For customizations:
 Here is a preview of the theme in action:
 
 ![Screenshot](./RetroCalendarFavicon.png)
-
-## Contributing
-
-Contributions are welcome! If you find any bugs, want to suggest improvements, or want to add more widgets, feel free to open an issue or submit a pull request.
-
-### How to contribute:
-1. Fork the repository.
-2. Create a new branch for your changes.
-3. Make the changes, and add appropriate tests if necessary.
-4. Submit a pull request.
 
 ## License
 
