@@ -111,7 +111,7 @@ For customizations:
 
 Here is a preview of the theme in action:
 
-![Screenshot](./RetroCalendarFavicon.png)
+![Screenshot](./screenshot_18012025_201133.jpg)
 
 ## License
 
