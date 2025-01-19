@@ -64,7 +64,7 @@ If you’ve never used Linux before, here are some great options to start with:
 
 Hyprland is **not pre-installed** on any Linux system, so you need to install it manually.  
 
-📌 **Official Hyprland Docs:** 👉 [Hyprland GitHub](https://github.com/hyprwm/Hyprland)  
+📌 **Official Hyprland Docs:** 👉 [Hyprland wiki](https://wiki.hyprland.org/Getting-Started/Installation/)  
 Check the official docs for extra setup steps (like NVIDIA support).  
 
 ### 🏗️ Installation Steps  
