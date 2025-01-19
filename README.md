@@ -140,12 +140,10 @@ waybar &
 
 ## Usage
 
-Once the theme is installed, Waybar will automatically use the custom theme. You can modify the `config` and `style.css` files to suit your preferences.
+Once the theme is installed, **Waybar** will automatically use the custom theme. You can modify the following files to suit your preferences:
 
-For customizations:
-- Adjust the layout in the `config` file.
-- Modify the look and feel using the `style.css` file.
-- Change the image path if you're using your own icons.
+- **`config`**: This file contains the configuration for Waybar, including custom shortcuts, modules, and the way they interact with your system.
+- **`style.css`**: This file controls the visual appearance of the theme. Feel free to change the colors, font sizes, and other design elements to match your style.
 
 ## License
 

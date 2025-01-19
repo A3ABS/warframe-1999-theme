@@ -9,7 +9,7 @@
 }
 
 #custom-power {
-    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarPowerLg.png');
+    background-image: url('RetroTaskbarPowerLg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -30,9 +30,8 @@
     min-height: 48px;
 }
 
-/* Optional: Add specific styling for each button */
 #custom-calendar {
-    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarCalendarLg.png');
+    background-image: url('RetroTaskbarCalendarLg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,7 +39,7 @@
 }
 
 #custom-map {
-    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarMapLg.png');
+    background-image: url('RetroTaskbarMapLg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +47,7 @@
 }
 
 #custom-message {
-    background-image: url('/home/a3/.config/waybar/themes/POM-2/RetroTaskbarChatLg.png');
+    background-image: url('RetroTaskbarChatLg.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
