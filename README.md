@@ -2,6 +2,8 @@
 
 A custom Waybar theme inspired by the aesthetics of Warframe 1999. This theme integrates various visual elements designed to resemble the Warframe UI style and provides a unique, futuristic look to your Waybar setup.
 
+![Screenshot](./screenshot_18012025_201133.jpg)
+
 ## Requirements
 
 Before installing the Warframe 1999 theme, you will need the following:
@@ -106,12 +108,6 @@ For customizations:
 - Adjust the layout in the `config` file.
 - Modify the look and feel using the `style.css` file.
 - Change the image path if you're using your own icons.
-
-## Screenshots
-
-Here is a preview of the theme in action:
-
-![Screenshot](./screenshot_18012025_201133.jpg)
 
 ## License
 
