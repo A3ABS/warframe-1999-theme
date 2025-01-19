@@ -4,6 +4,8 @@ A custom Waybar theme inspired by the aesthetics of Warframe 1999. This theme in
 
 ![Screenshot](./screenshot_18012025_201133.jpg)
 
+> If you're new to Linux, please refer to the [INTRO.md](./INTRO.md) file first to get familiar with the basics of Linux and Hyprland setup before diving into this theme installation guide.
+
 ## Requirements
 
 Before installing the Warframe 1999 theme, you will need the following:
