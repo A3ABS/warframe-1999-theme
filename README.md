@@ -38,7 +38,7 @@ Make sure you have the following installed:
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/warframe-1999-theme.git
+git clone https://github.com/A3ABS/warframe-1999-theme.git
 cd warframe-1999-theme
 ```
 
@@ -59,12 +59,10 @@ To make the setup easier, you can install the `ml4w` dotfiles, which provide pre
 - Pre-configured **Waybar settings**.
 - Custom **Hyprland configuration**.
 
-Install them with the following commands:
+Install them with the following instructions here:
 
 ```bash
-git clone https://github.com/your-username/ml4w-dotfiles.git
-cd ml4w-dotfiles
-./install.sh
+https://github.com/mylinuxforwork/dotfiles
 ```
 
 Once the `ml4w` dotfiles are installed, you can use the `ml4w config change tool` to modify settings easily. This tool will automatically update the configuration files for Hyprland and Waybar, including all required changes to make the Warframe theme work seamlessly.
@@ -77,28 +75,66 @@ Copy all the necessary files to your Waybar configuration directory:
 cp -r * ~/.config/waybar/
 ```
 
-### 5. Customize the Image Path
+### 5. Customize the Image Path  
 
-By default, the theme uses an image `RetroCalendarFavicon.png`. This image should be in the same directory as the `date.sh` and `pic.sh` scripts.
+By default, the theme uses the image `RetroCalendarFavicon.png`, which should be placed in the same directory as the `date.sh` and `pic.sh` scripts.
 
-If you want to use a custom image, place it in the same directory as the scripts and update the `image_path` variable in the scripts:
+Make sure to update the `image_path` variable in the `pic.sh` script with the absolute path to the image. For example:
 
 ```bash
-# Update the image path if you have a different image
-image_path="./RetroCalendarFavicon.png"
+# Update the image path with the absolute path to RetroCalendarFavicon.png
+image_path="/full/path/to/RetroCalendarFavicon.png"
 ```
 
-### 6. Restart Waybar
+### 6. Install and Use NWG Wrapper
 
-After setting everything up, restart Waybar to apply the changes:
+To manage widgets and scripts for your Waybar, use **NWG Wrapper**. Follow these steps:
+
+1. Install **NWG Wrapper** via your package manager or follow the [GitHub instructions](https://github.com/nwg-piotr/nwg-wrapper).
+
+2. Run the following commands, replacing the paths with your system paths:
+
+```bash
+nwg-wrapper -s /full/path/to/date.sh -p right -mr 35 -a end -mb -8 -j right
+nwg-wrapper -s /full/path/to/pic.sh -p right -mr 0 -a end -mb -12 -j right
+```
+
+### Explanation of Commands:
+
+- `-s /full/path/to/date.sh`: Full path to your `date.sh` script.
+- `-p right`: Positions the widget on the right (`left`, `center` are other options).
+- `-mr 35`: Moves widget 35px from the right edge.
+- `-a end`: Aligns the widget to the end (left or right).
+- `-mb -8`: Sets a bottom margin of -8px.
+- `-j right`: Justifies the widget to the right.
+
+### How to Tweak:
+
+- **Position** (`-p left`, `-p right`, `-p center`): Adjust widget's position.
+- **Margins** (`-mr`, `-mb`): Modify spacing between the widget and edges.
+- **Justification** (`-j right`, `-j left`): Controls widget alignment.
+
+## Note
+
+If you encounter any issues, your best friend is an AI like ChatGPT—use it to troubleshoot and refine your setup.
+
+### Autostart Recommendation
+
+To ensure NWG Wrapper runs automatically on startup, add the commands to your **autostart script**. This way, you won’t need to run them manually each time.
+
+### Visibility Issues
+
+If the widgets are hidden behind open windows, adjust the **window gaps out** in the **ml4w Hyprland settings application** to make them visible.
+
+### 7. Restart Waybar
+
+After setting everything up with NWG Wrapper, restart Waybar to apply the changes:
 
 ```bash
 # Restart Waybar
 pkill waybar
 waybar &
 ```
-
----
 
 ## Usage
 
@@ -112,4 +148,3 @@ For customizations:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-```

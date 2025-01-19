@@ -1,5 +1,13 @@
 # 🌿 Introduction to Linux & Hyprland  
 
+Disclaimer: This is not a guide on how to get started with Linux or installation basics. Instead, it’s a starting point for understanding what to look for when setting up Hyprland and what resources to focus on. For detailed installation guides, there are plenty of other resources available online.
+
+# 💡 Tip: Use AI as Your Backup
+
+If you ever feel stuck while following this or other guides, AI tools like ChatGPT can be a lifesaver. Whether it's simplifying commands, providing explanations, or helping you troubleshoot issues, it's a great resource to guide you through tricky parts. AI can save you time by quickly pointing you to the right solution, or even just offering advice when you're unsure of the next step.
+
+It’s like having a virtual assistant who’s always ready to help you get unstuck — an extra pair of hands when you need them most.
+
 ## 🚀 Why Linux? Why Hyprland?  
 
 If you've ever felt frustrated with Windows—slow updates, forced restarts, ads in your Start Menu—then you're not alone. I was in the same boat.  
