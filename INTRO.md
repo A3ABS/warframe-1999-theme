@@ -72,27 +72,28 @@ Check the official docs for extra setup steps (like NVIDIA support).
 #### Arch Linux / EndeavourOS  
 
 ```bash
-sudo pacman -S hyprland waybar nwg-wrapper
+sudo pacman -S hyprland waybar
 ```
 
 - **sudo pacman -S hyprland**: This command installs the Hyprland window manager using `pacman`, the default package manager for Arch Linux and its derivatives (like EndeavourOS).  
 - **waybar**: This installs the Waybar, a customizable status bar for Wayland compositors like Hyprland.  
-- **nwg-wrapper**: This installs `nwg-wrapper`, a utility to help configure and launch applications in the Hyprland environment.  
+- **nwg-wrapper**: This installs `nwg-wrapper`, a utility to help configure and launch widgets in the Hyprland environment. [Install steps](https://github.com/nwg-piotr/nwg-wrapper)
 
-#### Fedora (via Copr)  
+#### Fedora  
 
 ```bash
-sudo dnf copr enable solopasha/hyprland  
-sudo dnf install hyprland waybar nwg-wrapper
+sudo dnf install hyprland
+sudo dnf install hyprland-devel # If you want to build plugins (use hyprpm)
 ```
 
-- **sudo dnf copr enable solopasha/hyprland**: This command enables the Copr repository (a third-party repo) for Fedora, specifically to install Hyprland from it.  
-- **sudo dnf install**: This is the command to install packages in Fedora. It installs the same `hyprland`, `waybar`, and `nwg-wrapper` packages as before.  
+- **sudo dnf install hyprland**: Installs Hyprland using Fedora’s default package manager (dnf).
+- **sudo dnf install hyprland-devel**: Installs development files needed to build Hyprland plugins using hyprpm.
 
-#### Ubuntu / Debian 
+### Ubuntu / Debian
 
-Hyprland isn’t officially supported here, but you can install it through third-party repos. Check the [Hyprland GitHub](https://github.com/hyprwm/Hyprland) for details.  
-- For these distributions, you may need to follow additional steps to enable third-party repositories or manually compile the software. Check the GitHub link for more information.
+**Hyprland isn’t officially supported here** due to differences in the underlying package management system and architecture compared to Arch or Fedora. However, you can install it through third-party repositories. Check the [Hyprland GitHub](https://github.com/hyprwm/Hyprland) or [Hyprland wiki](https://wiki.hyprland.org/Getting-Started/Installation/) for details.
+
+For these distributions, you may need to follow additional steps to enable third-party repositories or manually compile the software. Check the GitHub link for more information.
 
 ---
 
@@ -154,4 +155,3 @@ If you ever get stuck on something (which will likely happen a lot), **don’t p
 Remember, every little issue you face is documented somewhere online. There's a wealth of resources to help you figure things out on your own. That’s one of the core principles of Linux — it’s about empowerment. You take on the responsibility of caring for your own system, and in exchange, you unlock an unparalleled level of customization and freedom that you won’t find in other operating systems.
 
 Even if you mess up and brick your Linux install, don’t worry! That’s all part of the process. I’ve had about 3 bricked Arch installs myself before I landed on the one I currently use daily. It's a journey, and each mistake brings you closer to mastery. So embrace the process and keep pushing forward!
-
